@@ -1,0 +1,15 @@
+*_etl_hrt
+*_rtw
+slprj
+*.mdl.r*
+*.orig
+*.mexa64
+*~
+*.user
+*.autosave
+*.asv
+*.slxc
+*.mp4
+*.fig
+*.mat
+*.JPG
