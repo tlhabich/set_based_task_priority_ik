@@ -16,11 +16,11 @@ Symbolic Matlab functions of direct kinematics and (geometric) jacobians of the 
 
 ## Usage
 The complete workflow is shown using an UR5 example similar to [Moe2016]. The following three tasks are considered with descending priority:
-- Collision avoidance sigma_a (set-based with _eucl_dist_)
-- Collision avoidance sigma_b (set-based with _eucl_dist_)
-- Position task sigma_1 (equality with _3T_, _3T3R_ or _3T2R_)
+- Collision avoidance sigma_a (set-based with Euclidean distance)
+- Collision avoidance sigma_b (set-based with Euclidean distance)
+- Position task sigma_1 (equality with 3T2R)
 
-Running the script (_task_prio_UR5.m_) with 3T2R task returns the following plots. Collision avoidance (two spheres as collision objects) is achieved in each iteration, as these tasks have a higher priority than 3T2R positioning.
+Running the script (_task_prio_UR5.m_) returns the following plots. Collision avoidance (two spheres as collision objects) is achieved in each iteration, as these tasks have a higher priority than 3T2R positioning.
 <p align="center">
     <img src="UR5_example/plots/ee_trajectory.png" width="400"/>
   </a>
